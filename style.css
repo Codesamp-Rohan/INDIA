@@ -1,0 +1,667 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.topPortion {
+    background-image: url("https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?cs=srgb&dl=pexels-jeswin-thomas-1007426.jpg&fm=jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 200px;
+}
+
+.topPortion h1 {
+    box-shadow: 0px 0px 2px white;
+}
+
+.topPortion img {
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    filter: opacity(0.2);
+    object-fit: cover;
+}
+
+.about {
+    padding-top: 30%;
+    background-color: #ffffff;
+    margin-bottom: 200px;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 6rem;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    padding: 30px;
+    text-align: center;
+    filter: drop-shadow(7px 4px 6px black);
+    font-weight: 100;
+}
+
+.about .aboutContent .aboutContentPoints {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    min-width: 40%;
+}
+
+.about .aboutContent .aboutContentPoints p {
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding: 10px;
+    list-style: circle;
+}
+
+.aboutContentImage {
+    background-color: #202020;
+}
+
+.aboutContentImage img {
+    width: 60vw;
+    -webkit-mask-image: linear-gradient(rgb(0, 0, 0), transparent);
+    mask-image: linear-gradient(rgb(0, 0, 0), transparent);
+    border: 0.5px solid black;
+}
+
+.bestPlaces {
+    margin-bottom: 300px;
+}
+
+.bestPlaces h1 {
+    font-size: 6rem;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-align: center;
+    filter: drop-shadow(7px 4px 6px black);
+    font-weight: 100;
+}
+
+.bestPlaces h1 p {
+    font-size: 1rem;
+}
+
+.firstPlace {
+    margin-top: 100px;
+    background-image: url("https://th.bing.com/th/id/R.4c8097cea97a5076d3604d6cafcbc932?rik=84WEOOL9Z59ZpQ&riu=http%3a%2f%2ftoptenplus.com%2fwp-content%2fuploads%2f2012%2f07%2ftaj-mahal-agra.jpg&ehk=o%2fFmd85LXpDFEh7Vp5CteCEcV3i36rUifIlvIovbmFg%3d&risl=&pid=ImgRaw&r=0");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.firstPlaceContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.secondPlace {
+    background-image: url("https://wallpapercave.com/wp/wp6612913.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.secondPlaceContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.thirdPlace {
+    background-image: url("https://cdn.wallpapersafari.com/86/3/XwImOA.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.thirdPlaceContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.forthPlace {
+    background-image: url("https://wallpapercave.com/wp/wp4527557.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.forthPlaceContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.fifthPlace {
+    background-image: url("https://wallpapercave.com/wp/wp9292770.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.fifthPlaceContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.sixthPlace {
+    background-image: url("https://i.pinimg.com/originals/f5/bb/cc/f5bbcc0d1f4c6cbf6c77b6da354c0ff9.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.sixthPlaceContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.seventhPlace {
+    background-image: url("https://cdn.wallpapersafari.com/74/52/wvFOdJ.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.seventhPlaceContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+
+
+.bestPlaces a {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.inventions {
+    margin-bottom: 300px;
+}
+
+.inventions h1 {
+    font-size: 6rem;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-align: center;
+    filter: drop-shadow(7px 4px 6px black);
+    font-weight: 100;
+}
+
+.inventions h1 p {
+    font-size: 1rem;
+}
+
+.firstInvention {
+    background-image: url("https://wallpapercave.com/wp/wp9329926.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.firstInventionContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.secondInvention {
+    background-image: url("https://wallpapercave.com/wp/wp6845532.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.secondInventionContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.thirdInvention {
+    background-image: url("https://i.pinimg.com/originals/5a/3c/de/5a3cde9b5284efb1a95805c02555d63e.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.thirdInventionContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.forthInvention {
+    background-image: url("https://wallpapercave.com/wp/wp6841484.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.forthInventionContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.fifthInvention {
+    background-image: url("https://wallpaper.sc/en/desktop/wp-content/uploads/2018/08/desktop-pc-1920x1080-thumbnail_00244.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.fifthInventionContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.sixthInvention {
+    background-image: url("https://images7.alphacoders.com/110/1108180.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.sixthInventionContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.god {
+    margin-bottom: 300px;
+    line-height: 4rem;
+}
+
+.god h1 {
+    font-size: 6rem;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-align: center;
+    filter: drop-shadow(7px 4px 6px black);
+    font-weight: 100;
+}
+
+.god h1 p {
+    font-size: 1rem;
+}
+
+.god h2 {
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-align: center;
+}
+
+.warning {
+    font-family: 'Courier New', Courier, monospace;
+    color: #808080;
+}
+
+.firstGod {
+    background-image: url("https://th.bing.com/th/id/OIG.G_bguarjnPtHz02akN92?pid=ImgGn");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.firstGodContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.secondGod {
+    background-image: url("https://i.pinimg.com/originals/cd/b8/f8/cdb8f88b3554c764f3cf0df2975446f6.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.secondGodContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.thirdGod {
+    background-image: url("https://wallpapercave.com/wp/wp5294389.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.thirdGodContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.forthGod {
+    background-image: url("https://wallpaperaccess.com/full/2353245.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.forthGodContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.fifthGod {
+    background-image: url("https://wallpapercave.com/wp/wp5131773.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.fifthGodContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.sixthGod {
+    background-image: url("https://wallpapercave.com/wp/wp3435099.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.sixthGodContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.seventhGod {
+    background-image: url("https://wallpapers.com/images/hd/hanuman-render-close-up-4k-hd-3d-ahhiyo7dqfbi8muk.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.seventhGodContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.festival {
+    margin-bottom: 300px;
+    line-height: 4rem;
+}
+
+.festival h1 {
+    font-size: 6rem;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    text-align: center;
+    filter: drop-shadow(7px 4px 6px black);
+    font-weight: 100;
+}
+
+.festival h1 p {
+    font-size: 1rem;
+}
+
+.firstFestival {
+    background-image: url("https://images7.alphacoders.com/104/thumb-1920-1047223.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.firstFestivalContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.secondFestival {
+    background-image: url("https://cdn.wallpapersafari.com/91/31/yBDsJM.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.secondFestivalContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.thirdFestival {
+    background-image: url("https://www.visittnt.com/blog/wp-content/uploads/2019/08/Ganesh-festival.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.thirdFestivalContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.forthFestival {
+    background-image: url("https://www.tripsavvy.com/thmb/tapw3kI91X6kAfdCHIFwf1GjIkY=/3000x2000/filters:fill(auto,1)/GettyImages-587188956-5ad1a718a474be0036453082.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.8);
+}
+
+.forthFestivalContent h1 {
+    font-size: 4rem;
+    width: 80vw;
+    color: rgba(#ffffff, 0.7);
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+    padding: 50px;
+}
+
+.footer h1 {
+    font-size: 4rem;
+}
