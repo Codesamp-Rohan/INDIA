@@ -714,15 +714,17 @@ body {
     .topPortion h1 {
         font-size: 6rem;
     }
-}
 
-@media screen and (max-width:400px) {
+    .inventions h1 {
+        font-size: 3rem;
+    }
+
     .firstPlaceContent h1 {
         font-size: 3rem;
     }
 
     .secondPlaceContent h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     .thirdPlaceContent h1 {
@@ -746,7 +748,7 @@ body {
     }
 
     .inventions h1 {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
 
     .footer h1 {
@@ -782,6 +784,80 @@ body {
     }
 
     .festival h1 {
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+
+    .thirdFestivalContent h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .firstPlaceContent h1 {
+        font-size: 3rem;
+    }
+
+    .secondPlaceContent h1 {
+        font-size: 3rem;
+    }
+
+    .thirdPlaceContent h1 {
+        font-size: 3rem;
+    }
+
+    .forthPlaceContent h1 {
+        font-size: 3rem;
+    }
+
+    .fifthPlaceContent h1 {
+        font-size: 3rem;
+    }
+
+    .sixthPlaceContent h1 {
+        font-size: 3rem;
+    }
+
+    .seventhPlaceContent h1 {
+        font-size: 3rem;
+    }
+
+    .inventions h1 {
+        font-size: 3rem;
+    }
+
+    .footer h1 {
+        font-size: 3rem;
+    }
+
+    .firstGodContent h1 {
+        font-size: 3rem;
+    }
+
+    .secondGodContent h1 {
+        font-size: 3rem;
+    }
+
+    .thirdGodContent h1 {
+        font-size: 3rem;
+    }
+
+    .forthGodContent h1 {
+        font-size: 2.2rem;
+    }
+
+    .fifthGodContent h1 {
+        font-size: 2.8rem;
+    }
+
+    .sixthGodContent h1 {
+        font-size: 3rem;
+    }
+
+    .seventhGodContent h1 {
+        font-size: 2.6rem;
+    }
+
+    .festival h1 {
+        font-size: 4rem;
     }
 }
